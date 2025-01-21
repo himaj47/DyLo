@@ -1,0 +1,51 @@
+{
+    "QMainWindow": [
+      {
+        "tittle": "SLAM & Nav2 Assistant",
+        "frameless": true,
+        "transluscentBg": true,
+        "shadow": [
+          {
+            "centralWidget": "centralWidgetName",
+            "color": "#000000",
+            "blurRadius": 10,
+            "xOffset": 5,
+            "yOffset": 5
+          }
+        ],
+        "navigation": [
+          {
+            "minimize": "minimize",
+            "close": "close",
+            "restore": [
+              {
+                "buttonName": "maximize",
+                "normalIcon": "icons/square.svg",
+                "maximizedIcon": "icons/square.svg"
+              }
+            ],
+            "moveWindow": "top_bar_widget",
+            "tittleBar": "top_bar_widget"
+          }
+        ]
+      }
+    ],
+
+    "QCustomQStackedWidget": [
+      {
+        "name": "customStackedWidget",
+        "navigation": [
+          {
+            "navigationButtons": [
+              {
+                "start_b": "startPage",
+                "sim_b": "Simulation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
+  
+  
