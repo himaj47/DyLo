@@ -55,6 +55,9 @@ class MainWindow(QMainWindow):
         res = self.exec.run_command(self.cmd, path)
         print("success = " + str(res["success"]))
 
+        self.cmd = ["colcon", "build", "--symlink-install"]
+        res = self.exec.run_command(self.cmd, self.workspace_path)
+
     def go_to_start_page(self):
         self.ui.customStackedWidget.setCurrentIndex(0)
 
