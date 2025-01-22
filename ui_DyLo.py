@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'DyLoWZvKKf.ui'
+## Form generated from reading UI file 'DyLoCflJEF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.3
 ##
@@ -20,7 +20,7 @@ class Ui_DyLo(object):
     def setupUi(self, DyLo):
         if not DyLo.objectName():
             DyLo.setObjectName(u"DyLo")
-        DyLo.resize(958, 667)
+        DyLo.resize(1264, 758)
         font = QFont()
         font.setPointSize(16)
         font.setBold(True)
@@ -121,7 +121,7 @@ class Ui_DyLo(object):
         self.horizontalLayout_9.addWidget(self.frame_2)
 
 
-        self.verticalLayout.addWidget(self.top_bar_widget, 0, Qt.AlignTop)
+        self.verticalLayout.addWidget(self.top_bar_widget)
 
         self.main_widget = QWidget(self.centralwidget)
         self.main_widget.setObjectName(u"main_widget")
@@ -188,16 +188,14 @@ class Ui_DyLo(object):
         self.start_b.setFont(font2)
         self.start_b.setMouseTracking(True)
         self.start_b.setAutoFillBackground(False)
-        self.start_b.setStyleSheet("""
-            QPushButton {
-                color: rgb(154, 153, 150);
-                font: bold;
-            }
-            QPushButton:hover {
-                background-color: rgb(98, 160, 234);
-                color: white;
-            }
-        """)
+        self.start_b.setStyleSheet(u"QPushButton {\n"
+"	color: rgb(154, 153, 150);\n"
+"	font: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(98, 160, 234);\n"
+"	color: white;\n"
+"}")
         self.start_b.setIconSize(QSize(16, 16))
         self.start_b.setCheckable(False)
 
@@ -223,16 +221,14 @@ class Ui_DyLo(object):
         sizePolicy4.setHeightForWidth(self.sim_b.sizePolicy().hasHeightForWidth())
         self.sim_b.setSizePolicy(sizePolicy4)
         self.sim_b.setFont(font2)
-        self.sim_b.setStyleSheet("""
-            QPushButton {
-                color: rgb(154, 153, 150);
-                font: bold;
-            }
-            QPushButton:hover {
-                background-color: rgb(98, 160, 234);
-                color: white;
-            }
-        """)
+        self.sim_b.setStyleSheet(u"QPushButton {\n"
+"	color: rgb(154, 153, 150);\n"
+"	font: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(98, 160, 234);\n"
+"	color: white;\n"
+"}")
 
         self.horizontalLayout_3.addWidget(self.sim_b)
 
@@ -256,16 +252,14 @@ class Ui_DyLo(object):
         sizePolicy5.setHeightForWidth(self.ros_control_b.sizePolicy().hasHeightForWidth())
         self.ros_control_b.setSizePolicy(sizePolicy5)
         self.ros_control_b.setFont(font2)
-        self.ros_control_b.setStyleSheet("""
-            QPushButton {
-                color: rgb(154, 153, 150);
-                font: bold;
-            }
-            QPushButton:hover {
-                background-color: rgb(98, 160, 234);
-                color: white;
-            }
-        """)
+        self.ros_control_b.setStyleSheet(u"QPushButton {\n"
+"	color: rgb(154, 153, 150);\n"
+"	font: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(98, 160, 234);\n"
+"	color: white;\n"
+"}")
 
         self.horizontalLayout_4.addWidget(self.ros_control_b)
 
@@ -286,16 +280,14 @@ class Ui_DyLo(object):
         sizePolicy4.setHeightForWidth(self.config_file_b.sizePolicy().hasHeightForWidth())
         self.config_file_b.setSizePolicy(sizePolicy4)
         self.config_file_b.setFont(font2)
-        self.config_file_b.setStyleSheet("""
-            QPushButton {
-                color: rgb(154, 153, 150);
-                font: bold;
-            }
-            QPushButton:hover {
-                background-color: rgb(98, 160, 234);
-                color: white;
-            }
-        """)
+        self.config_file_b.setStyleSheet(u"QPushButton {\n"
+"	color: rgb(154, 153, 150);\n"
+"	font: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(98, 160, 234);\n"
+"	color: white;\n"
+"}")
 
         self.horizontalLayout_5.addWidget(self.config_file_b)
 
@@ -316,16 +308,14 @@ class Ui_DyLo(object):
         sizePolicy4.setHeightForWidth(self.help_b.sizePolicy().hasHeightForWidth())
         self.help_b.setSizePolicy(sizePolicy4)
         self.help_b.setFont(font2)
-        self.help_b.setStyleSheet("""
-            QPushButton {
-                color: rgb(154, 153, 150);
-                font: bold;
-            }
-            QPushButton:hover {
-                background-color: rgb(98, 160, 234);
-                color: white;
-            }
-        """)
+        self.help_b.setStyleSheet(u"QPushButton {\n"
+"	color: rgb(154, 153, 150);\n"
+"	font: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(98, 160, 234);\n"
+"	color: white;\n"
+"}")
 
         self.horizontalLayout_6.addWidget(self.help_b)
 
@@ -387,26 +377,256 @@ class Ui_DyLo(object):
 
         self.verticalLayout_6.addWidget(self.label, 0, Qt.AlignTop)
 
+        self.widget = QWidget(self.startPage)
+        self.widget.setObjectName(u"widget")
+        sizePolicy7 = QSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
+        sizePolicy7.setHorizontalStretch(10)
+        sizePolicy7.setVerticalStretch(0)
+        sizePolicy7.setHeightForWidth(self.widget.sizePolicy().hasHeightForWidth())
+        self.widget.setSizePolicy(sizePolicy7)
+        self.verticalLayout_2 = QVBoxLayout(self.widget)
+        self.verticalLayout_2.setSpacing(0)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout = QGridLayout()
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.gridLayout.setSizeConstraint(QLayout.SetDefaultConstraint)
+        self.gridLayout.setHorizontalSpacing(6)
+        self.gridLayout.setVerticalSpacing(0)
+        self.gridLayout.setContentsMargins(-1, -1, 0, -1)
+        self.nav2_logo_frame = QFrame(self.widget)
+        self.nav2_logo_frame.setObjectName(u"nav2_logo_frame")
+        self.nav2_logo_frame.setStyleSheet(u".QFrame {\n"
+"	border: none\n"
+"}")
+        self.nav2_logo_frame.setFrameShape(QFrame.StyledPanel)
+        self.nav2_logo_frame.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_7 = QVBoxLayout(self.nav2_logo_frame)
+        self.verticalLayout_7.setObjectName(u"verticalLayout_7")
+        self.label_4 = QLabel(self.nav2_logo_frame)
+        self.label_4.setObjectName(u"label_4")
+        sizePolicy3.setHeightForWidth(self.label_4.sizePolicy().hasHeightForWidth())
+        self.label_4.setSizePolicy(sizePolicy3)
+        self.label_4.setMinimumSize(QSize(351, 0))
+        self.label_4.setPixmap(QPixmap(u":/icons/icons/nav2_logo_cropped.png"))
+
+        self.verticalLayout_7.addWidget(self.label_4, 0, Qt.AlignRight|Qt.AlignTop)
+
+
+        self.gridLayout.addWidget(self.nav2_logo_frame, 0, 2, 1, 1, Qt.AlignRight)
+
+        self.main_content = QWidget(self.widget)
+        self.main_content.setObjectName(u"main_content")
+        sizePolicy6.setHeightForWidth(self.main_content.sizePolicy().hasHeightForWidth())
+        self.main_content.setSizePolicy(sizePolicy6)
+        self.main_content.setAcceptDrops(False)
+        self.main_content.setStyleSheet(u"margin-bottom: 10px;\n"
+"margin-left: 0px;")
+        self.verticalLayout_11 = QVBoxLayout(self.main_content)
+        self.verticalLayout_11.setSpacing(9)
+        self.verticalLayout_11.setObjectName(u"verticalLayout_11")
+        self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
+        self.workspace_frame = QFrame(self.main_content)
+        self.workspace_frame.setObjectName(u"workspace_frame")
+        self.workspace_frame.setStyleSheet(u".QFrame {\n"
+"	border: 1.5px solid rgb(192, 191, 188);\n"
+"}")
+        self.workspace_frame.setFrameShape(QFrame.StyledPanel)
+        self.workspace_frame.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_8 = QVBoxLayout(self.workspace_frame)
+        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
+        self.label_5 = QLabel(self.workspace_frame)
+        self.label_5.setObjectName(u"label_5")
+        sizePolicy3.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
+        self.label_5.setSizePolicy(sizePolicy3)
+        self.label_5.setMinimumSize(QSize(0, 0))
+        font4 = QFont()
+        font4.setFamily(u"Ubuntu")
+        font4.setPointSize(14)
+        font4.setBold(True)
+        font4.setWeight(75)
+        self.label_5.setFont(font4)
+        self.label_5.setStyleSheet(u"color: rgb(119, 118, 123)")
+
+        self.verticalLayout_8.addWidget(self.label_5, 0, Qt.AlignVCenter)
+
+        self.widget_2 = QWidget(self.workspace_frame)
+        self.widget_2.setObjectName(u"widget_2")
+        sizePolicy3.setHeightForWidth(self.widget_2.sizePolicy().hasHeightForWidth())
+        self.widget_2.setSizePolicy(sizePolicy3)
+        self.widget_2.setStyleSheet(u".QWidget {\n"
+"	border: 1.5px solid rgb(192, 191, 188);\n"
+"	border-radius: 6px;\n"
+"}")
+        self.horizontalLayout_7 = QHBoxLayout(self.widget_2)
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.lineEdit = QLineEdit(self.widget_2)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setMinimumSize(QSize(0, 27))
+        self.lineEdit.setStyleSheet(u"background-color: white;\n"
+"height: 26;")
+
+        self.horizontalLayout_7.addWidget(self.lineEdit)
+
+        self.pushButton_2 = QPushButton(self.widget_2)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        font5 = QFont()
+        font5.setFamily(u"Manjari")
+        self.pushButton_2.setFont(font5)
+        self.pushButton_2.setStyleSheet(u"QPushButton{\n"
+"	padding-top: 5px;\n"
+"	padding-bottom: 5px;\n"
+"	padding-left: 10px;\n"
+"	padding-right: 10px;\n"
+"	background-color: rgb(222, 221, 218);\n"
+"	border-style: outset;\n"
+"	border-width: 2px;\n"
+"	border-color: rgb(119, 118, 123);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(180, 180, 180);\n"
+"}\n"
+"\n"
+"\n"
+"")
+
+        self.horizontalLayout_7.addWidget(self.pushButton_2, 0, Qt.AlignHCenter|Qt.AlignVCenter)
+
+
+        self.verticalLayout_8.addWidget(self.widget_2)
+
+
+        self.verticalLayout_11.addWidget(self.workspace_frame)
+
+        self.frame_5 = QFrame(self.main_content)
+        self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setMinimumSize(QSize(0, 0))
+        font6 = QFont()
+        font6.setFamily(u"Ubuntu")
+        self.frame_5.setFont(font6)
+        self.frame_5.setStyleSheet(u".QFrame {\n"
+"	border: 1.5px solid rgb(192, 191, 188);\n"
+"}")
+        self.frame_5.setFrameShape(QFrame.StyledPanel)
+        self.frame_5.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_9 = QVBoxLayout(self.frame_5)
+        self.verticalLayout_9.setObjectName(u"verticalLayout_9")
+        self.label_6 = QLabel(self.frame_5)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setFont(font4)
+        self.label_6.setStyleSheet(u"color: rgb(119, 118, 123)")
+
+        self.verticalLayout_9.addWidget(self.label_6, 0, Qt.AlignVCenter)
+
+        self.package_name = QLineEdit(self.frame_5)
+        self.package_name.setObjectName(u"package_name")
+        sizePolicy5.setHeightForWidth(self.package_name.sizePolicy().hasHeightForWidth())
+        self.package_name.setSizePolicy(sizePolicy5)
+        self.package_name.setMinimumSize(QSize(0, 27))
+        self.package_name.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: white;\n"
+"height: 27px;")
+
+        self.verticalLayout_9.addWidget(self.package_name)
+
+        self.separator_package_build_type = QWidget(self.frame_5)
+        self.separator_package_build_type.setObjectName(u"separator_package_build_type")
+        sizePolicy3.setHeightForWidth(self.separator_package_build_type.sizePolicy().hasHeightForWidth())
+        self.separator_package_build_type.setSizePolicy(sizePolicy3)
+        self.verticalLayout_10 = QVBoxLayout(self.separator_package_build_type)
+        self.verticalLayout_10.setObjectName(u"verticalLayout_10")
+        self.verticalSpacer_2 = QSpacerItem(28, 0, QSizePolicy.Minimum, QSizePolicy.Expanding)
+
+        self.verticalLayout_10.addItem(self.verticalSpacer_2)
+
+
+        self.verticalLayout_9.addWidget(self.separator_package_build_type)
+
+        self.label_7 = QLabel(self.frame_5)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setFont(font4)
+        self.label_7.setStyleSheet(u"color: rgb(119, 118, 123)")
+
+        self.verticalLayout_9.addWidget(self.label_7)
+
+        self.listWidget = QListWidget(self.frame_5)
+        __qlistwidgetitem = QListWidgetItem(self.listWidget)
+        __qlistwidgetitem.setTextAlignment(Qt.AlignLeading|Qt.AlignVCenter);
+        QListWidgetItem(self.listWidget)
+        self.listWidget.setObjectName(u"listWidget")
+        sizePolicy3.setHeightForWidth(self.listWidget.sizePolicy().hasHeightForWidth())
+        self.listWidget.setSizePolicy(sizePolicy3)
+        self.listWidget.setMinimumSize(QSize(0, 10))
+        self.listWidget.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: white;")
+        self.listWidget.setFrameShape(QFrame.WinPanel)
+        self.listWidget.setAlternatingRowColors(False)
+        self.listWidget.setLayoutMode(QListView.SinglePass)
+        self.listWidget.setViewMode(QListView.ListMode)
+        self.listWidget.setModelColumn(0)
+        self.listWidget.setUniformItemSizes(False)
+        self.listWidget.setSelectionRectVisible(True)
+
+        self.verticalLayout_9.addWidget(self.listWidget)
+
+        self.pushButton_3 = QPushButton(self.frame_5)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        font7 = QFont()
+        font7.setFamily(u"Manjari")
+        font7.setPointSize(13)
+        self.pushButton_3.setFont(font7)
+        self.pushButton_3.setStyleSheet(u"QPushButton{\n"
+"	padding-top: 5px;\n"
+"	padding-bottom: 5px;\n"
+"	padding-left: 20px;\n"
+"	padding-right: 20px;\n"
+"	background-color: rgb(222, 221, 218);\n"
+"	border-style: outset;\n"
+"	border-width: 2px;\n"
+"	border-color: rgb(119, 118, 123);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(180, 180, 180);\n"
+"}\n"
+"\n"
+"\n"
+"")
+
+        self.verticalLayout_9.addWidget(self.pushButton_3, 0, Qt.AlignLeft)
+
+
+        self.verticalLayout_11.addWidget(self.frame_5)
+
+        self.frame_5.raise_()
+        self.workspace_frame.raise_()
+
+        self.gridLayout.addWidget(self.main_content, 0, 1, 1, 1, Qt.AlignTop)
+
+
+        self.verticalLayout_2.addLayout(self.gridLayout)
+
+
+        self.verticalLayout_6.addWidget(self.widget)
+
         self.pushButton = QPushButton(self.startPage)
         self.pushButton.setObjectName(u"pushButton")
-        font4 = QFont()
-        font4.setFamily(u"Manjari")
-        self.pushButton.setFont(font4)
-        self.pushButton.setStyleSheet("""
-            QPushButton {
-                background-color: rgb(222, 221, 218);
-                border-style: outset;
-                border-width: 2px;
-                border-color: rgb(119, 118, 123);
-                padding-top: 8px;
-                padding-bottom: 4px;
-                padding-left: 25px;
-                padding-right: 25px;
-            }
-            QPushButton:hover {
-                background-color: rgb(180, 180, 180);
-            }
-        """)
+        self.pushButton.setFont(font5)
+        self.pushButton.setStyleSheet(u"QPushButton {\n"
+"	background-color: rgb(222, 221, 218);\n"
+"	border-style: outset;\n"
+"	border-width: 2px;\n"
+"	border-color: rgb(119, 118, 123);\n"
+"	padding-top: 8px;\n"
+"	padding-bottom: 4px;\n"
+"	padding-left: 25px;\n"
+"	padding-right: 25px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(180, 180, 180);\n"
+"}")
 
         self.verticalLayout_6.addWidget(self.pushButton, 0, Qt.AlignRight)
 
@@ -439,6 +659,7 @@ class Ui_DyLo(object):
         self.retranslateUi(DyLo)
 
         self.customStackedWidget.setCurrentIndex(0)
+        self.listWidget.setCurrentRow(-1)
 
 
         QMetaObject.connectSlotsByName(DyLo)
@@ -456,6 +677,22 @@ class Ui_DyLo(object):
         self.config_file_b.setText(QCoreApplication.translate("DyLo", u"  Configuration files  ", None))
         self.help_b.setText(QCoreApplication.translate("DyLo", u"  Help", None))
         self.label.setText(QCoreApplication.translate("DyLo", u"Welcome to Nav2 Setup Assistant", None))
+        self.label_4.setText("")
+        self.label_5.setText(QCoreApplication.translate("DyLo", u"Select your Workspace", None))
+        self.pushButton_2.setText(QCoreApplication.translate("DyLo", u"Browse", None))
+        self.label_6.setText(QCoreApplication.translate("DyLo", u"Create a Package", None))
+        self.package_name.setText(QCoreApplication.translate("DyLo", u"  enter package name", None))
+        self.label_7.setText(QCoreApplication.translate("DyLo", u"Select Build Type", None))
+
+        __sortingEnabled = self.listWidget.isSortingEnabled()
+        self.listWidget.setSortingEnabled(False)
+        ___qlistwidgetitem = self.listWidget.item(0)
+        ___qlistwidgetitem.setText(QCoreApplication.translate("DyLo", u" ament_cmake", None));
+        ___qlistwidgetitem1 = self.listWidget.item(1)
+        ___qlistwidgetitem1.setText(QCoreApplication.translate("DyLo", u" ament_python", None));
+        self.listWidget.setSortingEnabled(__sortingEnabled)
+
+        self.pushButton_3.setText(QCoreApplication.translate("DyLo", u"Create", None))
         self.pushButton.setText(QCoreApplication.translate("DyLo", u"Load Files", None))
         self.label_2.setText(QCoreApplication.translate("DyLo", u"Simulations", None))
     # retranslateUi

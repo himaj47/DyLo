@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icons/nav2_logo_cropped.png</file>
+    <file>icons/nav2_logo.png</file>
     <file>icons/minus.svg</file>
     <file>icons/square.svg</file>
     <file>icons/x.svg</file>
