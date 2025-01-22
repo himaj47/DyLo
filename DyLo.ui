@@ -888,7 +888,11 @@ margin-left: 0px;</string>
                               </font>
                              </property>
                              <property name="styleSheet">
-                              <string notr="true">color: rgb(119, 118, 123)</string>
+                              <string notr="true">color: rgb(119, 118, 123);
+background-color: rgb(222, 221, 218);
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 4px;</string>
                              </property>
                              <property name="text">
                               <string>Select your Workspace</string>
@@ -919,13 +923,14 @@ margin-left: 0px;</string>
                                  </size>
                                 </property>
                                 <property name="styleSheet">
-                                 <string notr="true">background-color: white;
+                                 <string notr="true">color: rgb(119, 118, 123);
+background-color: white;
 height: 26;</string>
                                 </property>
                                </widget>
                               </item>
                               <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
-                               <widget class="QPushButton" name="pushButton_2">
+                               <widget class="QPushButton" name="browse_b">
                                 <property name="font">
                                  <font>
                                   <family>Manjari</family>
@@ -997,7 +1002,11 @@ QPushButton:hover {
                               </font>
                              </property>
                              <property name="styleSheet">
-                              <string notr="true">color: rgb(119, 118, 123)</string>
+                              <string notr="true">color: rgb(119, 118, 123);
+background-color: rgb(222, 221, 218);
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 4px;</string>
                              </property>
                              <property name="text">
                               <string>Create a Package</string>
@@ -1024,7 +1033,7 @@ background-color: white;
 height: 27px;</string>
                              </property>
                              <property name="text">
-                              <string>  enter package name</string>
+                              <string/>
                              </property>
                             </widget>
                            </item>
@@ -1064,7 +1073,11 @@ height: 27px;</string>
                               </font>
                              </property>
                              <property name="styleSheet">
-                              <string notr="true">color: rgb(119, 118, 123)</string>
+                              <string notr="true">color: rgb(119, 118, 123);
+background-color: rgb(222, 221, 218);
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 4px;</string>
                              </property>
                              <property name="text">
                               <string>Select Build Type</string>
@@ -1115,7 +1128,7 @@ background-color: white;</string>
                              </property>
                              <item>
                               <property name="text">
-                               <string> ament_cmake</string>
+                               <string>ament_cmake</string>
                               </property>
                               <property name="textAlignment">
                                <set>AlignLeading|AlignVCenter</set>
@@ -1123,13 +1136,13 @@ background-color: white;</string>
                              </item>
                              <item>
                               <property name="text">
-                               <string> ament_python</string>
+                               <string>ament_python</string>
                               </property>
                              </item>
                             </widget>
                            </item>
                            <item alignment="Qt::AlignLeft">
-                            <widget class="QPushButton" name="pushButton_3">
+                            <widget class="QPushButton" name="create_b">
                              <property name="font">
                               <font>
                                <family>Manjari</family>

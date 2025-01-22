@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'DyLoCflJEF.ui'
+## Form generated from reading UI file 'DyLovkjdUk.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.3
 ##
@@ -446,7 +446,11 @@ class Ui_DyLo(object):
         font4.setBold(True)
         font4.setWeight(75)
         self.label_5.setFont(font4)
-        self.label_5.setStyleSheet(u"color: rgb(119, 118, 123)")
+        self.label_5.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: rgb(222, 221, 218);\n"
+"padding-top: 3px;\n"
+"padding-bottom: 3px;\n"
+"border-radius: 4px;")
 
         self.verticalLayout_8.addWidget(self.label_5, 0, Qt.AlignVCenter)
 
@@ -463,17 +467,18 @@ class Ui_DyLo(object):
         self.lineEdit = QLineEdit(self.widget_2)
         self.lineEdit.setObjectName(u"lineEdit")
         self.lineEdit.setMinimumSize(QSize(0, 27))
-        self.lineEdit.setStyleSheet(u"background-color: white;\n"
+        self.lineEdit.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: white;\n"
 "height: 26;")
 
         self.horizontalLayout_7.addWidget(self.lineEdit)
 
-        self.pushButton_2 = QPushButton(self.widget_2)
-        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.browse_b = QPushButton(self.widget_2)
+        self.browse_b.setObjectName(u"browse_b")
         font5 = QFont()
         font5.setFamily(u"Manjari")
-        self.pushButton_2.setFont(font5)
-        self.pushButton_2.setStyleSheet(u"QPushButton{\n"
+        self.browse_b.setFont(font5)
+        self.browse_b.setStyleSheet(u"QPushButton{\n"
 "	padding-top: 5px;\n"
 "	padding-bottom: 5px;\n"
 "	padding-left: 10px;\n"
@@ -491,7 +496,7 @@ class Ui_DyLo(object):
 "\n"
 "")
 
-        self.horizontalLayout_7.addWidget(self.pushButton_2, 0, Qt.AlignHCenter|Qt.AlignVCenter)
+        self.horizontalLayout_7.addWidget(self.browse_b, 0, Qt.AlignHCenter|Qt.AlignVCenter)
 
 
         self.verticalLayout_8.addWidget(self.widget_2)
@@ -515,7 +520,11 @@ class Ui_DyLo(object):
         self.label_6 = QLabel(self.frame_5)
         self.label_6.setObjectName(u"label_6")
         self.label_6.setFont(font4)
-        self.label_6.setStyleSheet(u"color: rgb(119, 118, 123)")
+        self.label_6.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: rgb(222, 221, 218);\n"
+"padding-top: 3px;\n"
+"padding-bottom: 3px;\n"
+"border-radius: 4px;")
 
         self.verticalLayout_9.addWidget(self.label_6, 0, Qt.AlignVCenter)
 
@@ -546,7 +555,11 @@ class Ui_DyLo(object):
         self.label_7 = QLabel(self.frame_5)
         self.label_7.setObjectName(u"label_7")
         self.label_7.setFont(font4)
-        self.label_7.setStyleSheet(u"color: rgb(119, 118, 123)")
+        self.label_7.setStyleSheet(u"color: rgb(119, 118, 123);\n"
+"background-color: rgb(222, 221, 218);\n"
+"padding-top: 3px;\n"
+"padding-bottom: 3px;\n"
+"border-radius: 4px;")
 
         self.verticalLayout_9.addWidget(self.label_7)
 
@@ -570,13 +583,13 @@ class Ui_DyLo(object):
 
         self.verticalLayout_9.addWidget(self.listWidget)
 
-        self.pushButton_3 = QPushButton(self.frame_5)
-        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.create_b = QPushButton(self.frame_5)
+        self.create_b.setObjectName(u"create_b")
         font7 = QFont()
         font7.setFamily(u"Manjari")
         font7.setPointSize(13)
-        self.pushButton_3.setFont(font7)
-        self.pushButton_3.setStyleSheet(u"QPushButton{\n"
+        self.create_b.setFont(font7)
+        self.create_b.setStyleSheet(u"QPushButton{\n"
 "	padding-top: 5px;\n"
 "	padding-bottom: 5px;\n"
 "	padding-left: 20px;\n"
@@ -594,7 +607,7 @@ class Ui_DyLo(object):
 "\n"
 "")
 
-        self.verticalLayout_9.addWidget(self.pushButton_3, 0, Qt.AlignLeft)
+        self.verticalLayout_9.addWidget(self.create_b, 0, Qt.AlignLeft)
 
 
         self.verticalLayout_11.addWidget(self.frame_5)
@@ -679,20 +692,20 @@ class Ui_DyLo(object):
         self.label.setText(QCoreApplication.translate("DyLo", u"Welcome to Nav2 Setup Assistant", None))
         self.label_4.setText("")
         self.label_5.setText(QCoreApplication.translate("DyLo", u"Select your Workspace", None))
-        self.pushButton_2.setText(QCoreApplication.translate("DyLo", u"Browse", None))
+        self.browse_b.setText(QCoreApplication.translate("DyLo", u"Browse", None))
         self.label_6.setText(QCoreApplication.translate("DyLo", u"Create a Package", None))
-        self.package_name.setText(QCoreApplication.translate("DyLo", u"  enter package name", None))
+        self.package_name.setText("")
         self.label_7.setText(QCoreApplication.translate("DyLo", u"Select Build Type", None))
 
         __sortingEnabled = self.listWidget.isSortingEnabled()
         self.listWidget.setSortingEnabled(False)
         ___qlistwidgetitem = self.listWidget.item(0)
-        ___qlistwidgetitem.setText(QCoreApplication.translate("DyLo", u" ament_cmake", None));
+        ___qlistwidgetitem.setText(QCoreApplication.translate("DyLo", u"ament_cmake", None));
         ___qlistwidgetitem1 = self.listWidget.item(1)
-        ___qlistwidgetitem1.setText(QCoreApplication.translate("DyLo", u" ament_python", None));
+        ___qlistwidgetitem1.setText(QCoreApplication.translate("DyLo", u"ament_python", None));
         self.listWidget.setSortingEnabled(__sortingEnabled)
 
-        self.pushButton_3.setText(QCoreApplication.translate("DyLo", u"Create", None))
+        self.create_b.setText(QCoreApplication.translate("DyLo", u"Create", None))
         self.pushButton.setText(QCoreApplication.translate("DyLo", u"Load Files", None))
         self.label_2.setText(QCoreApplication.translate("DyLo", u"Simulations", None))
     # retranslateUi
