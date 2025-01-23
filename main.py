@@ -33,6 +33,7 @@ class MainWindow(QMainWindow):
 
         self.cmd = []
         self.exec = cmd.CommandExecutor()
+        self.is_created = False
 
     def selected_build_type(self, type):
         self.build_type = type.text()
@@ -58,6 +59,8 @@ class MainWindow(QMainWindow):
         self.cmd = ["colcon", "build", "--symlink-install"]
         res = self.exec.run_command(self.cmd, self.workspace_path)
 
+        self.is_created = True
+
     def go_to_start_page(self):
         self.ui.customStackedWidget.setCurrentIndex(0)
 
@@ -66,6 +69,13 @@ class MainWindow(QMainWindow):
 
     def Load(self):
         print("Loading Files")
+
+        if self.is_created:
+            self.cmd = ["code", "."]
+            res = self.exec.run_command(self.cmd, self.workspace_path + "/src")
+
+        else:
+            print("no package created!!!")
 
     def change_style_sheet(self):
         self.ui.pushButton.setStyleSheet("""
