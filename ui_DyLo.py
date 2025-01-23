@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'DyLovkjdUk.ui'
+## Form generated from reading UI file 'fros_loadergnSHZz.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.3
 ##
@@ -20,7 +20,7 @@ class Ui_DyLo(object):
     def setupUi(self, DyLo):
         if not DyLo.objectName():
             DyLo.setObjectName(u"DyLo")
-        DyLo.resize(1264, 758)
+        DyLo.resize(1070, 716)
         font = QFont()
         font.setPointSize(16)
         font.setBold(True)
@@ -403,15 +403,6 @@ class Ui_DyLo(object):
         self.nav2_logo_frame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_7 = QVBoxLayout(self.nav2_logo_frame)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.label_4 = QLabel(self.nav2_logo_frame)
-        self.label_4.setObjectName(u"label_4")
-        sizePolicy3.setHeightForWidth(self.label_4.sizePolicy().hasHeightForWidth())
-        self.label_4.setSizePolicy(sizePolicy3)
-        self.label_4.setMinimumSize(QSize(351, 0))
-        self.label_4.setPixmap(QPixmap(u":/icons/icons/nav2_logo_cropped.png"))
-
-        self.verticalLayout_7.addWidget(self.label_4, 0, Qt.AlignRight|Qt.AlignTop)
-
 
         self.gridLayout.addWidget(self.nav2_logo_frame, 0, 2, 1, 1, Qt.AlignRight)
 
@@ -680,7 +671,7 @@ class Ui_DyLo(object):
 
     def retranslateUi(self, DyLo):
         DyLo.setWindowTitle(QCoreApplication.translate("DyLo", u"MainWindow", None))
-        self.label_3.setText(QCoreApplication.translate("DyLo", u"<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; color:#ffffff;\">Nav2 Setup Assistant</span></p></body></html>", None))
+        self.label_3.setText(QCoreApplication.translate("DyLo", u"<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; color:#ffffff;\">FROS Loader</span></p></body></html>", None))
         self.minimize.setText("")
         self.maximize.setText("")
         self.close.setText("")
@@ -689,8 +680,7 @@ class Ui_DyLo(object):
         self.ros_control_b.setText(QCoreApplication.translate("DyLo", u"  ROS2 Control", None))
         self.config_file_b.setText(QCoreApplication.translate("DyLo", u"  Configuration files  ", None))
         self.help_b.setText(QCoreApplication.translate("DyLo", u"  Help", None))
-        self.label.setText(QCoreApplication.translate("DyLo", u"Welcome to Nav2 Setup Assistant", None))
-        self.label_4.setText("")
+        self.label.setText(QCoreApplication.translate("DyLo", u"Welcome to FROS Loader", None))
         self.label_5.setText(QCoreApplication.translate("DyLo", u"Select your Workspace", None))
         self.browse_b.setText(QCoreApplication.translate("DyLo", u"Browse", None))
         self.label_6.setText(QCoreApplication.translate("DyLo", u"Create a Package", None))
